@@ -1,0 +1,23 @@
+{
+  "name": "tasktraker",
+  "version": "1.0.0",
+  "description": "Task Traker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "client":"npm start --prefix client",
+    "server":"nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client \"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [
+    "Task",
+    "Traker"
+  ],
+  "author": "Pantis Calin",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.15"
+  }
+}

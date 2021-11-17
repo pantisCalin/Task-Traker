@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "text": "Basketball with Friends",
+      "day": "March 14th at 14:02",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "Homework",
+      "day": "Today Oct 19th at 16:50 ",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "Play Piano",
+      "day": "Monday: 15",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "This is another task",
+      "day": "We do this every day",
+      "reminder": false,
+      "id": 6
+    }
+  ]
+}
